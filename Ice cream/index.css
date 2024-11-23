@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7dc79;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7dc79;
+   
+   
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left a, .nav-right a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+    color: #555;
+}
+
+.logo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    color: #333;
+}
+
+.nav-right .icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right .icon img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.order-online {
+    padding: 5px 15px;
+    border: 2px solid #333;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.ice1{
+     background-image: url(ice\ cream\ 1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    width: 100%;
+    height: 700px;
+    margin-top: 120px;
+}
+.ice1 h1,h2,button{
+    
+    text-align: center;
+}
+
+#h2{
+    padding-top: 250px;
+    font-size: x-large;
+    color: white;
+}
+#h1{
+    padding-top: 0%;
+    font-weight:bolder;
+    font-size: 70px;
+    color: white;
+    margin-top: 0px;
+}
+.btn{
+    width: 180px;
+    height: 60px;
+    padding-left: 530px;
+}
+.btn button{
+    width:140px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    margin-top: 50px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.flavors {
+    width: 50%;
+}
+
+.flavors img {
+    width: 115%;
+}
+
+.text-section {
+    width: 40%;
+    text-align: center;
+    background-color: white;
+}
+
+.text-section h1 {
+    font-size: 36px;
+}
+
+.text-section h2 {
+    font-size: 24px;
+    color: #333;
+    font-family: cursive;
+}
+
+.text-section p {
+    font-size: 16px;
+    color: #666;
+}
+
+.btn2 {
+    width:140px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.ice2{
+    /* border: 2px solid black; */
+    background-image: url(ice-cream-5928048_1280.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:cover;
+   width: 100vw;
+   height: 100vh;
+   object-fit: cover;
+}
+.ice2 h1,h2{
+    
+    text-align: center;
+    
+}
+.ice2 #h2 h2{
+    font-size: 60px;
+}
+ .ice2 #h1{
+    font-size: 100px;
+}
+.btn1{
+    width:180px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    margin-top: 50px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.flavors {
+    width: 50%;
+}
+
+.flavors img {
+    width: 115%;
+}
+
+.text-section1 {
+    width: 40%;
+    text-align: center;
+    background-color: white;
+}
+
+.text-section1 h1 {
+    font-size: 36px;
+}
+
+.text-section1 h2 {
+    font-size: 24px;
+    color: #333;
+    font-family: cursive;
+}
+
+.text-section1 p {
+    font-size: 16px;
+    color: #666;
+}
+
+.btn3 {
+    width:140px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn3:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.btn4 button{
+    width:140px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.btn4:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}

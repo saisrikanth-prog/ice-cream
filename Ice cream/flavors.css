@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+}
+
+
+header {
+    background-color: #f7d774; 
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.nav-links li a:hover {
+    color: #999;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.cart {
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.order-online {
+    border: 2px solid #333;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.order-online:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+.our-flavors {
+    background-color: #bce5d0; 
+    text-align: center;
+    padding: 100px 0;
+}
+
+.our-flavors h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.our-flavors h1 {
+    font-size: 96px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.flavor {
+    margin: 20px;
+    text-align: center;
+}
+.flavor img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.flavor h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.flavor p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+.flavor .price {
+    font-size: 1.2em;
+    font-weight: bold;
+}
